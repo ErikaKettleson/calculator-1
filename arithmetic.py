@@ -16,11 +16,11 @@ def divide(num1, num2):
 
 def square(num):
     """Return the square of a number"""
-    pass
+    return num**2
 
 def cube(num):
     """Return the cube of a number"""
-    pass
+    return num**3
 
 def power(num, exponent):
     """Return num raised to the power of exponent"""
@@ -34,3 +34,5 @@ print add(2, 3)
 print subtract(10, 89)
 print multiply(10, 3)
 print divide(2000, 1000)
+print square(63)
+print cube(2567)
