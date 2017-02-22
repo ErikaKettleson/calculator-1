@@ -24,11 +24,11 @@ def cube(num):
 
 def power(num, exponent):
     """Return num raised to the power of exponent"""
-    pass
+    return num**exponent
 
 def mod(num1, num2):
     """Return remainder of num1 divided by num2"""
-    pass
+    return num1 % num2
 
 print add(2, 3)
 print subtract(10, 89)
@@ -36,3 +36,5 @@ print multiply(10, 3)
 print divide(2000, 1000)
 print square(63)
 print cube(2567)
+print power(2, 3)
+print mod(10, 3)
